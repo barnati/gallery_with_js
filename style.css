@@ -1,0 +1,40 @@
+/* body {
+    background-image: url("/export files/wallpaper/wallpaper.png");
+    background-size:cover;
+}
+
+header {
+    display: flex;
+    border: 2px solid yellow;
+}
+
+.menu {
+    border-right: 2px solid yellow;
+    width: 10%;
+    color: yellow;
+    text-align: center;
+}
+
+.trips {
+    position: absolute;
+    left: 95%;
+    color: yellow;
+}
+    
+.a {
+    fill: #ffce00;
+  }
+
+  .yellow_oval {
+      position: absolute;
+    
+      left:50%;
+      width: 100px;
+      height: 100px;
+
+  } */
+
+  section {
+      border: 1px solid black;
+  }
+
