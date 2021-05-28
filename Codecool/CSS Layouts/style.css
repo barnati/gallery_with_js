@@ -1,0 +1,53 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ h1 {
+     position:fixed;
+ }
+
+ .login {
+     width: 100vw;
+ }
+
+ .login form {
+     display: flex;
+     flex-direction: column;
+     column-gap: 10px;
+     width:50vw;
+     
+     position: absolute;
+     top: 50%;
+     right: 50%;
+     transform: translate(50%, -50%); 
+     row-gap: 10px;
+     }
+
+.colorful_boxes{
+         display: grid;
+         grid-template-columns: 5;
+         grid-template-rows: 5;
+         height: 70px;
+         grid
+    }
+
+.first {
+         background-color: red;
+    }
+.second {
+         background-color: aqua;
+         grid-row: span 3;
+         grid-column: span 2;
+    }
+.third {
+    background-color: green;
+    grid-row-start: row 5;
+    }
+.fourth {
+    background-color: hotpink;
+    }
+
+
+ 
+

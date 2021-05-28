@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.logo {
+    width: 60px;
+}
+nav {
+    max-width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ nav ul {
+     display: flex;
+     justify-content: center;
+     list-style: none;
+     flex-wrap: wrap;
+ }
+
+ nav ul li {
+     font-size: 1.2em;
+     padding: 30px;
+ }
+
+.search {
+    position: relative;
+    left: 200px;
+    width: 600px;
+    height: 50px;
+    padding-bottom: 25px;
+}
+
+form {
+    width: 30vw;
+}
+
+input {
+    width: 100%;
+  }
+
+ .account {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     width: 25px;
+ }
+
+ .info {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 50vw;
+     background-color:rgb(136, 241, 245);
+     padding-left: 20px;
+     position:absolute;
+     left: 25vw; 
+ }
+
+ .button {
+    align-self: center;
+    width: 200px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+ }
+

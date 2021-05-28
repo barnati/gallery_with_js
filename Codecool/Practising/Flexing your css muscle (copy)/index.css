@@ -1,0 +1,130 @@
+/* GENERAL */
+html {
+    font: 15px/1.6 sans-serif;
+    color: #333;
+  }
+  
+  body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 960px;
+    height: 100vh;
+  }
+  
+  a { text-decoration: none; }
+  
+  /* HEADER */
+  header {
+   
+    background: #666;
+    border-bottom: 1px solid #333;
+  }
+  
+  nav {  padding: 0.5em; }
+  
+  nav ul {
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 0.5em;
+    display: inline-flex; 
+  }
+  
+  nav li.main {
+    margin-left: 0;
+    font-weight: bold;
+  }
+  
+  nav li.form {
+    position: relative;
+    left: 520px;
+    margin-left: auto;
+  }
+  
+  nav a { color: #fff; }
+  
+  nav a:hover, nav a:active {
+    color: #ddd;
+  }
+  
+  nav input[type="search"] 
+      border: 1px solid;
+      border-radius: .25em 0 0 .25em;
+      padding: .2em;
+  }
+  
+  nav input[type="search"] + button {
+      border-radius: 0 .25em .25em 0;
+      border: 1px solid;
+      border-left: 0;
+      padding: 0.2em;
+  }
+  
+  #toggle-nav { display: none; }
+  
+  /* MAIN SECTION */
+  main { margin: 1em; }
+  
+  section {
+  display:flex;
+  }
+  section.hero {
+    background: url("https://picsum.photos/960") center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: -1em;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section h1 {
+      font-size: 3em;
+      text-shadow: 1px -1px #fff,
+                  -1px  1px #fff,
+                  -1px -1px #fff,
+                  1px   1px #fff;
+  }
+  
+  article {
+    margin: 2em 1em 1em;
+    border-bottom: 1px solid;
+  }
+  
+  article:last-child { border-bottom: 0; }
+  
+  img {
+      width: 100%;
+      height: auto;
+      border-radius: .5em;
+  }
+  
+  .centered-horizontal {
+    max-width: 50%;
+    grid-column: span 2;
+    margin: 0; auto 0; auto;
+  }
+  
+  .centered-vertical {
+    width: 100%;
+    align-self: center;
+  }
+
+  .grid {
+      display: grid;
+      grid-template-columns: 50%;50%;
+  }
+  
+  /* FOOTER */
+  footer {
+    font-size: 14px;
+    line-height: 3;
+    background: #999;
+    text-align: center;
+  }
+  
+  
